@@ -1,5 +1,5 @@
 # room-impulse-responses
-A list of publicly available acoustic/room impulse response (AIR/RIR) datasets. Currently this repo only tracks real-world recorded room impulse responses. Datasets included here may contain other data in addition to RIRs.
+A list of publicly available acoustic/room impulse response (AIR/RIR) datasets. Currently this repo only tracks real-world recorded room impulse responses. Datasets included here may contain other data (e.g., speech, noise) in addition to RIRs. But I only describe the datasets about their RIR contents below.
 
 
 
