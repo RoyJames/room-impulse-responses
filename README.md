@@ -5,6 +5,7 @@ A list of publicly available acoustic/room impulse response (AIR/RIR) datasets. 
 
 | Name |  Content          | Year | Paper/Document   |
 | :----------------- | :------------- | :----- | :-----: |
+| [BUT Reverb Database](https://speech.fit.vutbr.cz/software/but-speech-fit-reverb-database) | 1300+ mono channel RIRs recorded in 8 rooms | 2019 | [Building and evaluation of a real room impulse response dataset](https://ieeexplore.ieee.org/document/8717722)
 | [MIT IR Survey](https://mcdermottlab.mit.edu/Reverb/IR_Survey.html) | 271 mono channel RIRs all recorded in distinct places | 2016 | [Statistics of natural reverberation enable perceptual separation of sound and space](https://www.pnas.org/content/113/48/E7856)
 | [ACE Challenge](http://www.ee.ic.ac.uk/naylor/ACEweb/index.html) | {1,2,3,5,8,32} channel RIRs recorded in 7 rooms | 2015 | [The ACE challenge — Corpus description and performance evaluation](https://ieeexplore.ieee.org/document/7336912) |
 | [Multichannel Impulse Response Database](https://www.eng.biu.ac.il/gannot/downloads/) | 234 8-channel RIRs recorded in the same room with 3 levels of reverberation and different microphone array spacings | 2014 | [Multichannel audio database in various acoustic environments](https://ieeexplore.ieee.org/document/6954309)
