@@ -32,7 +32,8 @@ if [ ! -d $dest/BUT_ReverbDB ]; then
   get_but.sh $dest
   if $cleandir; then
     echo "Removing non-RIR files"
-    find $dest/BUT_ReverbDB -type f -not -name '*IR*.wav' -delete
+    find $dest/BUT_ReverbDB -type f -not -name '*IR*.wav' -delete  # Delete non-RIR files
+    find $dest/BUT_ReverbDB -name '*v0[1-9].wav' -delete  # Delete repeated recordings
   fi
   echo "Download finished."
 fi
