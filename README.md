@@ -5,6 +5,7 @@ This repo also provides some scripts for downloading datasets if possible. Some 
 
 | Name |  Content          | Year | Paper/Document   | In script |
 | :----------------- | :------------- | :----- | :----- | :-----: |
+| [MeshRIR](https://sh01k.github.io/MeshRIR/) | 4410 mono RIRs recorded in very dense grids in a moderately reverberant room with accurate coordinates. | 2021 | [MeshRIR: A Dataset of Room Impulse Responses on Meshed Grid Points For Evaluating Sound Field Analysis and Synthesis Methods](https://arxiv.org/abs/2106.10801) |
 | [BUT Reverb Database](https://speech.fit.vutbr.cz/software/but-speech-fit-reverb-database) | 1300+ mono channel RIRs recorded in 8 rooms | 2019 | [Building and evaluation of a real room impulse response dataset](https://ieeexplore.ieee.org/document/8717722) | :heavy_check_mark:
 | [MIT IR Survey](https://mcdermottlab.mit.edu/Reverb/IR_Survey.html) | 271 mono channel RIRs all recorded in distinct places | 2016 | [Statistics of natural reverberation enable perceptual separation of sound and space](https://www.pnas.org/content/113/48/E7856) | :heavy_check_mark:
 | [ACE Challenge](http://www.ee.ic.ac.uk/naylor/ACEweb/index.html) | {1,2,3,5,8,32} channel RIRs recorded in 7 rooms | 2015 | [The ACE challenge — Corpus description and performance evaluation](https://ieeexplore.ieee.org/document/7336912) |
