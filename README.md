@@ -3,8 +3,11 @@ A list of publicly available acoustic/room impulse response (AIR/RIR) datasets. 
 
 This repo also provides some scripts for downloading datasets if possible. Some dataset may require registration to download, which we may not provide download links directly. Only rows marked with a :heavy_check_mark: are directly downloadable by running `./get_all_rirs.sh [destination folder]`.
 
+For getting spatial RIRs in ambisonic format (i.e., `.sofa`), please refer to [another dedicated website](https://www.sofaconventions.org/mediawiki/index.php/SOFA_(Spatially_Oriented_Format_for_Acoustics)).
+
 | Name |  Content          | Year | Paper/Document   | In script |
 | :----------------- | :------------- | :----- | :----- | :-----: |
+| [dEchorate](https://zenodo.org/record/5562386#.YflQNlvMLu0) | 1800 annotated RIRs obtained from 6 arrays of 5 microphones each, 6 sound sources and 11 different acoustic conditions. | 2021 | [dEchorate: a Calibrated Room Impulse Response Dataset for Echo-aware Signal Processing](https://arxiv.org/abs/2104.13168) |
 | [MeshRIR](https://sh01k.github.io/MeshRIR/) | 4410 mono RIRs recorded in very dense grids in a moderately reverberant room with accurate coordinates. | 2021 | [MeshRIR: A Dataset of Room Impulse Responses on Meshed Grid Points For Evaluating Sound Field Analysis and Synthesis Methods](https://arxiv.org/abs/2106.10801) |
 | [BUT Reverb Database](https://speech.fit.vutbr.cz/software/but-speech-fit-reverb-database) | 1300+ mono channel RIRs recorded in 8 rooms | 2019 | [Building and evaluation of a real room impulse response dataset](https://ieeexplore.ieee.org/document/8717722) | :heavy_check_mark:
 | [MIT IR Survey](https://mcdermottlab.mit.edu/Reverb/IR_Survey.html) | 271 mono channel RIRs all recorded in distinct places | 2016 | [Statistics of natural reverberation enable perceptual separation of sound and space](https://www.pnas.org/content/113/48/E7856) | :heavy_check_mark:
