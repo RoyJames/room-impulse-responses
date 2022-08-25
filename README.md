@@ -7,6 +7,7 @@ For getting spatial RIRs in ambisonic format (i.e., `.sofa`), please refer to [a
 
 | Name |  Content          | Year | Paper/Document   | In script |
 | :----------------- | :------------- | :----- | :----- | :-----: |
+| [Arni](https://zenodo.org/record/6985104#.YwffZuzMIeY) | 132,037 RIRs measured using 5342 configurations of 55 acoustic panels in the variable acoustics laboratory Arni at Acoustics Lab of Aalto University. | 2022 | [Calibrating the Sabine and Eyring formulas](https://asa.scitation.org/doi/full/10.1121/10.0013575) |
 | [dEchorate](https://zenodo.org/record/5562386#.YflQNlvMLu0) | 1800 annotated RIRs obtained from 6 arrays of 5 microphones each, 6 sound sources and 11 different acoustic conditions. | 2021 | [dEchorate: a Calibrated Room Impulse Response Dataset for Echo-aware Signal Processing](https://arxiv.org/abs/2104.13168) |
 | [MeshRIR](https://sh01k.github.io/MeshRIR/) | 4410 mono RIRs recorded in very dense grids in a moderately reverberant room with accurate coordinates. | 2021 | [MeshRIR: A Dataset of Room Impulse Responses on Meshed Grid Points For Evaluating Sound Field Analysis and Synthesis Methods](https://arxiv.org/abs/2106.10801) |
 | [BUT Reverb Database](https://speech.fit.vutbr.cz/software/but-speech-fit-reverb-database) | 1300+ mono channel RIRs recorded in 8 rooms | 2019 | [Building and evaluation of a real room impulse response dataset](https://ieeexplore.ieee.org/document/8717722) | :heavy_check_mark:
