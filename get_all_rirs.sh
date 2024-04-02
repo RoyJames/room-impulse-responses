@@ -56,3 +56,9 @@ if false && [ ! -d $dest/MIRD ]; then
   get_mird.sh $dest
   echo "Download finished."
 fi
+
+if [ ! -d $dest/MIRACLE ]; then
+  echo "Downloading MIRACLE dataset..."
+  get_miracle.sh $dest/MIRACLE
+  echo "Download finished."
+fi
