@@ -62,3 +62,11 @@ if [ ! -d $dest/MIRACLE ]; then
   get_miracle.sh $dest/MIRACLE
   echo "Download finished."
 fi
+
+if [ ! -d $dest/gtu-rir ]; then
+  echo "Downloading GTU-RIR dataset..."
+  get_gtu_rir.sh 
+  mv gtu-rir $dest/gtu-rir
+  echo "Download finished."
+fi
+
