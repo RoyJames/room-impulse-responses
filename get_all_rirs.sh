@@ -70,3 +70,8 @@ if [ ! -d $dest/gtu-rir ]; then
   echo "Download finished."
 fi
 
+if [ ! -d $dest/HOMULA-RIR ]; then
+  echo "Downloading HOMULA-RIR dataset..."
+  get_homula-rir.sh $dest
+  echo "Download finished."
+fi
